@@ -7,10 +7,10 @@ sgMail.setApiKey(sendGridAPIKey);
 
 const sendEnquiryEmail = (name , email , subject , message)=>{
     sgMail.send({
-        to : "dhruvkhanna38@gmail.com" , 
+        to : "ahuja.bhavay123@gmail.com" , 
         from :"dhruvkhanna38@gmail.com",
         subject : subject, 
-        text:`Hi! Dhruv, You have a new enquiry from ${name}.
+        text:`Hi! Bhavay, You have a new enquiry from ${name}.
         Email: ${email}
         Message: ${message}`
     });
